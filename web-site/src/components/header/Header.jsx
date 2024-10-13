@@ -31,7 +31,7 @@ export default function Header() {
                 <div className="button-menu">
                     <a href="#" className="button-vk"><img src={vk} alt="vk"/></a>
                     <a href="#" className="button-email"><img src={email} alt="email"/></a>
-                    <Button label="ЗАКАЗАТЬ ЗВОНОК" backgroundColor="#4CAF50" textColor="white"/>
+                    <Button label="ЗАКАЗАТЬ ЗВОНОК"/>
                 </div>
             </div>
         </header>
