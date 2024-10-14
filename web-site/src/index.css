@@ -19,6 +19,7 @@ body{
 }
 
 .container{
+  padding: 0 311px;
   max-width: 1297px;
   margin: 0 auto;
 }
