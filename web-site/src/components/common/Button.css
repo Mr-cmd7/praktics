@@ -1,20 +1,22 @@
 .button {
     background-color: white;
-    width: 175px;
+    max-width: 175px;
     height: 38px;
-    box-sizing: border-box;
-    text-align: center;
     font-size: 13px;
     color: #1FA8AD;
     font-family: 'Circe Bold', sans-serif;
     outline: none;
     cursor: pointer;
     border: 0;
-    padding: 0;
+    padding: 12px 20px;
     line-height: 38px;
     transition: background-color 0.3s, transform 0.3s;
     box-shadow: 1px 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .button:hover {
     background-color: #e0f7f9;
