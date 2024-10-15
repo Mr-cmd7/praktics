@@ -6,7 +6,7 @@ import '../common/Button.jsx'
 import Button from "../common/Button.jsx";
 
 export default function Header() {
-    const menuItems= [
+    const navItems= [
         { name: 'Сопровождение бизнеса', href: '#' },
         { name: 'Дист. обучение', href: '#' },
         { name: 'Лицензирование', href: '#' },
@@ -21,7 +21,7 @@ export default function Header() {
                 </div>
                 <nav className="menu">
                     <ul className="menu-list">
-                        {menuItems.map(item => (
+                        {navItems.map(item => (
                             <li className="menu-item">
                                 <a href={item.href}>{item.name}</a>
                             </li>

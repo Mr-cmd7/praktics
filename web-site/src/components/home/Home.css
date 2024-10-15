@@ -1,0 +1,39 @@
+main {
+    background-image: url("../../assets/images/home_bg.png");
+    background-repeat: no-repeat;
+}
+.main-title{
+    font-family: 'Circe Bold', sans-serif;
+    font-size: 56px;
+    width: 636px;
+    height: 210px;
+    line-height: 130%;
+    padding-top: 124px;
+}
+.service-menu-list{
+    padding-top: 139px;
+    display: flex;
+    gap: 24px;
+}
+.service-menu-item{
+    background-color: white;
+    box-shadow: 1px 2px 6px rgba(0,0,0,0.1);
+    width: 416px;
+    height: 254px;
+}
+.service-item-title{
+    padding-top:28px ;
+    padding-left:32px ;
+    display: flex;
+    width: 352px;
+    font-family: 'Circe Bold', sans-serif;
+    font-size: 24px;
+    align-items: center;
+    gap: 20px;
+    line-height: 100%;
+}
+.service-item-description{
+    padding:16px 32px 36px 131px ;
+    font-family: 'Circe', sans-serif;
+    font-size: 15px;
+}

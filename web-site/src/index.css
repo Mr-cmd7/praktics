@@ -16,9 +16,11 @@
 body{
   font-family: 'Circe', sans-serif;
   color: black;
+  background-color: #F5F7FC;
 }
 
 .container{
+  padding: 0 311px;
   max-width: 1297px;
   margin: 0 auto;
 }
