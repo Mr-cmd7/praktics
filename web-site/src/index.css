@@ -24,5 +24,11 @@ body{
   max-width: 1297px;
   margin: 0 auto;
 }
+.common-title{
+  font-family: 'Circe Bold', sans-serif;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 160px;
+}
 
 

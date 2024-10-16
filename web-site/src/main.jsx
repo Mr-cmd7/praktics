@@ -4,11 +4,13 @@ import './index.css'
 import Header from "./components/header/Header.jsx";
 import Home from "./components/home/Home.jsx";
 import About from "./components/about/About.jsx";
+import Why from "./components/why/Why.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
       <Home/>
       <About/>
+      <Why/>
   </StrictMode>
 )

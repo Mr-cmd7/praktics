@@ -1,0 +1,60 @@
+
+.why-adventure{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.why-adventure-items {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 636px;
+    margin-right: 24px;
+}
+
+.adventure-item {
+    width: 306px;
+    font-family: 'Circe Bold', sans-serif;
+    font-size: 24px;
+}
+
+.adventure-item:nth-child(2n + 1) {
+    margin-right: 24px;
+}
+
+.adventure-item:nth-child(n + 3) {
+    margin-top: 60px;
+}
+
+.adventure-item:last-child {
+    margin: 60px auto 0;
+    text-align: center;
+}
+
+.adventure-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.adventure-item p {
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 32px;
+    line-height: 125%;
+}
+.why-adventure-right{
+    display: flex;
+    flex-direction: column;
+
+}
+.adventure-text{
+    font-family: 'Circe', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    padding: 16px 32px;
+    max-width: 320px;
+    border-radius: 15px 15px 15px 0;
+    line-height: 125%;
+}
+.adventure-graph{
+    padding: 36px;
+}

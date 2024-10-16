@@ -6,7 +6,7 @@ export default function About() {
     return (
         <section className="about">
             <div className="container">
-                <div className="about-title">
+                <div className="common-title">
                     <p>О компании</p>
                 </div>
                 <div className="about-description">
