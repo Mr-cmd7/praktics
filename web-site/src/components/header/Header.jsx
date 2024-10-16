@@ -2,17 +2,11 @@ import logo from '../../assets/images/logo.png'
 import vk from '../../assets/images/vk.png'
 import email from '../../assets/images/email.png'
 import './Header.css'
-import '../common/Button.jsx'
-import Button from "../common/Button.jsx";
+import '../common/button/Button.jsx'
+import Button from "../common/button/Button.jsx";
+import {navItems} from '../../assets/data.js'
 
 export default function Header() {
-    const navItems= [
-        { name: 'Сопровождение бизнеса', href: '#' },
-        { name: 'Дист. обучение', href: '#' },
-        { name: 'Лицензирование', href: '#' },
-        { name: 'О нас', href: '#' },
-        { name: 'Контакты', href: '#' }
-    ];
     return (
         <header className="header">
             <div className="container">

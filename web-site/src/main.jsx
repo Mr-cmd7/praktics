@@ -5,6 +5,7 @@ import Header from "./components/header/Header.jsx";
 import Home from "./components/home/Home.jsx";
 import About from "./components/about/About.jsx";
 import Why from "./components/why/Why.jsx";
+import Reviews from "./components/reviews/Reviews.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
       <Home/>
       <About/>
       <Why/>
+      <Reviews/>
   </StrictMode>
 )

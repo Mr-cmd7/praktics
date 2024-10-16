@@ -1,4 +1,4 @@
-import Button from "../common/Button.jsx";
+import Button from "../common/button/Button.jsx";
 import './About.css'
 import aii from '../../assets/images/aboutItemImage.png'
 

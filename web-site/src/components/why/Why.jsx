@@ -1,16 +1,8 @@
-import icon_adv from '../../assets/images/icon-adv.png'
 import why_graph from '../../assets/images/why_graph.png'
 import './Why.css'
+import {whyItem} from '../../assets/data.js'
 
 export default function Why(){
-    const whyItem=[
-        {icon:icon_adv,text:'Достижение поставленных клиентом целей'},
-        {icon:icon_adv,text:'Нацелены на долгосрочное сотрудничество'},
-        {icon:icon_adv,text:'Лояльная ценовая политика'},
-        {icon:icon_adv,text:'Всегда готовы идти навстречу клиенту'},
-        {icon:icon_adv,text:'Высокая квалификация и практический опыт'},
-    ]
-
     return (
         <section className="why">
             <div className="container">
