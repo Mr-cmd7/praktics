@@ -1,57 +1,58 @@
-.slider-container {
+.swiper-container {
     padding-top: 80px;
 }
-.slider-items{
-    display: flex;
-    gap: 24px;
-}
-.slider-item{
-    padding: 40px 40px;
-    width: 416px;
-    height: 536px;
-    background-color: white;
-    box-shadow: 1px 2px 6px rgba(0,0,0,0.1);
-}
-.i-title{
+.i-title {
     padding-top: 36px;
     font-family: 'Circe Bold', sans-serif;
     font-size: 21px;
 }
-.i-text{
+.i-text {
     padding-top: 24px;
     font-family: 'Circe', sans-serif;
     font-size: 15px;
 }
-.i-author{
+.i-author {
     padding-top: 24px;
     padding-bottom: 12px;
     font-family: 'Circe Bold', sans-serif;
     font-size: 13px;
     text-transform: uppercase;
 }
-.i-position{
+.i-position {
     font-family: 'Circe', sans-serif;
     font-size: 15px;
     color: gray;
 }
-.pagination{
-    padding-top: 60px;
+.slide {
+    background-color: white;
+    padding-left: 24px;
+}
+.slider-item {
+    background-color: white;
+    box-shadow: 1px 2px 6px rgba(0,0,0,0.1);
+    padding: 40px;
+    width: 336px;
+    height: 456px;
+}
+.custom-pagination {
     margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 207px;
+    height: 40px;
+    gap: 40px;
     text-align: center;
 }
-.pagination span{
-    padding: 0 40px;
-    font-family: 'Circe Bold', sans-serif;
-    font-size: 18px;
-
-}
-.pagination button{
-    width: 40px;
-    height: 40px;
-    color: white;
-    background-color: #1FA8AD;
+.custom-button-prev,
+.custom-button-next {
+    background: none;
     border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.custom-fraction {
+    font-size: 16px;
     font-family: 'Circe Bold', sans-serif;
-    font-size: 20px;
-    padding: 10px 10px;
 }

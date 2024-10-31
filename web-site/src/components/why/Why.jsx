@@ -1,8 +1,8 @@
 import why_graph from '../../assets/images/why_graph.png'
 import './Why.css'
-import {whyItem} from '../../assets/data.js'
+import { whyItem } from '../../assets/data.js'
 
-export default function Why(){
+export default function Why() {
     return (
         <section className="why">
             <div className="container">
@@ -11,9 +11,9 @@ export default function Why(){
                 </div>
                 <div className="why-adventure">
                     <div className="why-adventure-items">
-                        {whyItem.map(item => (
-                            <div className="adventure-item">
-                                <img src={item.icon} alt={item.text}/>
+                        {whyItem.map((item, index) => (
+                            <div className="adventure-item" key={index}>
+                                <img src={item.icon} alt={item.text} />
                                 <p>{item.text}</p>
                             </div>
                         ))}
@@ -23,7 +23,7 @@ export default function Why(){
                             <p>Non diam laoreet faucibus amet ut lacus sed convallis viverra. At purus mattis in consectetur vel.</p>
                         </div>
                         <div className="adventure-graph">
-                            <img src={why_graph} alt="graph"/>
+                            <img src={why_graph} alt="graph" />
                         </div>
                     </div>
                 </div>

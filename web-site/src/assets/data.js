@@ -40,5 +40,33 @@ export const reviewItems = [
         author: 'Иванов иван',
         position: 'Коммерческий директор'
     },
+    {
+        logo: logo_1,
+        title: 'Blandit placerat eget ultrices gravida',
+        text: 'Nisl id blandit pharetra sodales vel diam vitae. Aliquet pulvinar nunc nam faucibus pellentesque etiam et. Ac iaculis velit amet pulvinar iaculis purus sociis in elementum. Eu ut magna tellus ipsum nibh volutpat aliquam at. Tempor sed habitant lectus quam tristique. Condimentum tortor massa est in eu enim. Metus nullam egestas eget libero vel. Amet nulla egestas et ipsum. Amet eu ac amet non aliquam et amet. Quis a auctor ut cras suspendisse in sem elementum nisl. Eu aliquet lobortis.',
+        author: 'Иванов иван',
+        position: 'Коммерческий директор'
+    },
+    {
+        logo: logo_2,
+        title: 'Platea libero netus vel mauris massa',
+        text: 'Ultrices enim vitae dignissim pharetra at. In id enim vulputate massa massa. Nisl quis purus amet mauris egestas porta non. Eget platea pharetra at leo faucibus nibh ipsum convallis euismod. Non quam turpis massa et cras facilisis ut blandit in. Faucibus sed in pellentesque morbi adipiscing proin consequat viverra vitae. Molestie pulvinar facilisi lorem pharetra. In turpis lectus non fermentum scelerisque lectus montes massa leo. Lectus in non tortor cursus. Ultrices sollicitudin cursus dictumst.',
+        author: 'Иванов иван',
+        position: 'Коммерческий директор'
+    },
+    {
+        logo: logo_3,
+        title: 'Vestibulum enim faucibus suspendisse quisque sit tellus sit. Congue neque viverra pharetra.',
+        text: 'Nam nunc suspendisse felis augue non pellentesque. Ut nam neque ornare pretium sodales feugiat gravida. Eleifend ut erat ornare ac. Non orci mi eu quam varius commodo mi blandit. Risus nec et amet tincidunt viverra sagittis nunc non. Lectus aliquet tempor pulvinar scelerisque odio condimentum at. Pharetra dolor elit eu aliquam tincidunt ipsum felis viverra. Enim dolor tellus.',
+        author: 'Иванов иван',
+        position: 'Коммерческий директор'
+    },
+    {
+        logo: logo_1,
+        title: 'Blandit placerat eget ultrices gravida',
+        text: 'Nisl id blandit pharetra sodales vel diam vitae. Aliquet pulvinar nunc nam faucibus pellentesque etiam et. Ac iaculis velit amet pulvinar iaculis purus sociis in elementum. Eu ut magna tellus ipsum nibh volutpat aliquam at. Tempor sed habitant lectus quam tristique. Condimentum tortor massa est in eu enim. Metus nullam egestas eget libero vel. Amet nulla egestas et ipsum. Amet eu ac amet non aliquam et amet. Quis a auctor ut cras suspendisse in sem elementum nisl. Eu aliquet lobortis.',
+        author: 'Иванов иван',
+        position: 'Коммерческий директор'
+    }
 ]
 
